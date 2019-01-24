@@ -8,5 +8,6 @@ public class Pyramid {
         PyramidBuilder piram = new PyramidBuilder();
         List<Integer> inputNum = Arrays.asList(2, 4, 3, 5, 6, 1);
         piram.buildPyramid(inputNum);
+
     }
 }

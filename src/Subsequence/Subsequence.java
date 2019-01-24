@@ -15,6 +15,7 @@ public class Subsequence {
                     verification = true;
                     point = secondIter + 1;
                     break;
+
                 }
             }
         }

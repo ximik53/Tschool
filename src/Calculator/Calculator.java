@@ -14,7 +14,8 @@ public class Calculator {
             for(int o=0; o<s.length();o++){
                 try{
                     if((s.charAt(o)==')' || Character.isDigit(s.charAt(o)))
-                            && s.charAt(o+1)=='('){
+                            && s.charAt(o+1)=='(')
+                    {
                         s=s.substring(0,o+1)+"*"+(s.substring(o+1));
                     }
                 }catch (Exception ignored){}

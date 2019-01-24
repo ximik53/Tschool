@@ -16,7 +16,6 @@ public class PyramidBuilder{
 
         int pyramDepth = getPyramDepth(inputNum.size());
         int pyramWidth = 2*pyramDepth - 1;
-
         int[][] pyram = new int[pyramDepth][pyramWidth];
 
         Collections.sort(inputNum);
